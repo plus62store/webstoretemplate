@@ -14,6 +14,39 @@ layout: default
     margin-top: 55px;
 }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "brand": "plus62 Bordir",
+  "description": "Jasa & Produk Bordir Tasikmalaya",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": "5",
+    "ratingCount": "{{ page.rC }}",
+    "ratingValue": "{{ page.rate }}"
+  },
+  "image": "{{ page.image }}",
+  "name": "{{ page.title }}",
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "IDR",
+    "highPrice": "{{ page.price }}",
+    "lowPrice": "{{ page.diskon }}",
+    "offerCount": "{{ page.stok }}",
+    "offers": [
+      {
+        "@type": "Offer",
+        "url": "{{ site.url }}{{ page.url }}"
+      },
+      {
+        "@type": "Offer",
+        "url": "{{ site.url }}{{ page.url }}"
+      }
+    ]
+  }
+}
+</script>
 <article class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col simpleCart_shelfItem">
 <div class="mdl-color-text--grey-700 mdl-card__supporting-text" style="padding-bottom:0px;">
 <div class="item_link display-none">{{site.url}}{{page.url}}</div>

@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://plus62store.github.io/sitemap.xml

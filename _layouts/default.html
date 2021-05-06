@@ -15,10 +15,10 @@ setInterval(function(){
 {
   "@context": "http://www.schema.org",
   "@type": "Store",
-  "name": "Plus62 Store",
-  "url": "https://plus62store.github.io",
-  "logo": "https://plus62store.github.io/images/thumb.png",
-  "image": "https://plus62store.github.io/images/thumb.png",
+  "name": "Plus62 Bordir",
+  "url": "https://plus62bordir.netlify.app/",
+  "logo": "{{site.url}}/images/thumb.png",
+  "image": "{{site.url}}/images/thumb.png",
   "description": "Produk & Jasa Bordir Tasikmalaya",
   "telephone": "+628113951666",
   "priceRange": "MidRange",
@@ -38,41 +38,6 @@ setInterval(function(){
   }
 }
  </script>
-    {% if page.layout == "post" %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "brand": "As-Syariah Bordir",
-  "description": "Jasa & Produk Bordir Tasikmalaya",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "bestRating": "5",
-    "ratingCount": "{{ page.rC }}",
-    "ratingValue": "{{ page.rate }}"
-  },
-  "image": "{{ page.thumb }}",
-  "name": "{{ page.title }}",
-  "offers": {
-    "@type": "AggregateOffer",
-    "priceCurrency": "IDR",
-    "highPrice": "{{ page.price }}",
-    "lowPrice": "{{ page.diskon }}",
-    "offerCount": "{{ page.stok }}",
-    "offers": [
-      {
-        "@type": "Offer",
-        "url": "{{ site.url }}{{ page.url }}"
-      },
-      {
-        "@type": "Offer",
-        "url": "{{ site.url }}{{ page.url }}"
-      }
-    ]
-  }
-}
-</script>
-    {% endif %}
   </head>
 
   <body>
