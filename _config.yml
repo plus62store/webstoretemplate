@@ -1,0 +1,73 @@
+
+name: Plus62 Bordir
+
+title: Produk & Jasa Bordir
+
+description: Produk & Jasa Bordir Manual Tasikmalaya
+
+avatar: /images/thumb.png
+
+image: /images/thumb.png
+
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: 
+  instagram:
+  linkedin:
+  pinterest:
+  rss: 
+  twitter: 
+  stackoverflow: 
+  youtube: 
+  googleplus: 
+
+disqus: plus62store
+comen: 30234
+fb-pixel: 300545907860274
+fb-appID: 437300347340287
+fb-admin: 158878762428839
+fb-profile: 435671100899312
+fb-pages: 107881477662203
+signal-id: 23925364-ab76-466d-b529-44ea74b5d7c1
+google_analytics: UA-187631685-1
+
+url: "https://plus62store.github.io"
+
+baseurl: ""
+
+permalink: /:title
+
+version: v1.2.0
+
+kramdown:
+  input: GFM
+
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: :expanded
+
+collections:
+  blogs:
+    output: true
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+paginate: 4
+paginate_path: '/page-:num'
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
