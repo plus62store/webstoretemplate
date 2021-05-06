@@ -1,5 +1,5 @@
 //<![CDATA[
-$('#Admin').val('0811-3951-666');
+$('#Admin').val('8113951666');
 $('.whatsapp-btn').click(function () {
 $('#whatsapp').toggleClass('toggle');});
 
