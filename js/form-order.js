@@ -82,7 +82,7 @@ function WhatsApp() {
  });
 				// Get Value
 				var order = $('#whatsapp-order .order').val(),
-                    input_info = cartItem, 
+                    input_info = cartItem,
                     input_total = $('.simpleCart_total').text(),
 		            nama = $('#whatsapp-order .nama').val(),
 		            alamat = $('#whatsapp-order .alamat').val(),
